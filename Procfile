@@ -1,0 +1,1 @@
+api: gunicorn -b --chdir ./server app:app

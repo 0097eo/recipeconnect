@@ -7,6 +7,7 @@ from sqlalchemy import or_
 from cloudinary.uploader import upload
 from cloudinary.utils import cloudinary_url
 from datetime import timedelta, datetime
+import os
 
 def upload_image_to_cloudinary(image_url):
     result = upload(image_url)
