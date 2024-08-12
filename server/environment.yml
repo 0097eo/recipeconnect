@@ -1,0 +1,21 @@
+name: recipe-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.13
+  - ipdb=0.13.9
+  - flask
+  - flask-sqlalchemy=3.0.3
+  - werkzeug=2.2.2
+  - flask-migrate
+  - flask-restful
+  - flask-cors
+  - faker
+  - bcrypt
+  - flask-bcrypt
+  - flask-jwt-extended
+  - pip
+  - pip:
+    - sqlalchemy-serializer
+    - cloudinary
