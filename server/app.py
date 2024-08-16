@@ -14,6 +14,7 @@ def upload_image_to_cloudinary(image_url):
     cloudinary_image_url, _ = cloudinary_url(result['public_id'], width=300, height=300, crop="fill")
     return cloudinary_image_url
 
+
 class Signup(Resource):
     def post(self):
         data = request.get_json()
